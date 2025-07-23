@@ -28,7 +28,7 @@ int main() {
     scanf(" %c", &ch);
     ch = toupper(ch);
 
-    // تعريف أنماط الحروف (A-Z) بمصفوفات 5x5
+
     const int patterns[26][5][5] = {
         // A
         {{0,1,0,1,0},
